@@ -59,7 +59,11 @@ onMounted(() => {
 
       <form @submit.prevent="addTodo">
         <h4>What's next?</h4>
-        <input type="text" placeholder="e.g meditate" v-model="input_content" />
+        <input
+          type="text"
+          placeholder="e.g wash dishes"
+          v-model="input_content"
+        />
         <h4>Pick a category</h4>
 
         <div class="options">
